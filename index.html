@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Germano Idiomas - Início</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="css/inicio.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+</head>
+
+<body>
+    <div id="topo">
+        <header id="cabecalho">
+            <a href="index.html"><img id="logo-germano-topo" src="imagens/logo-germano-branco.png" /></a>
+            <nav id="opcoes-menu">
+                <ul>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                    <li><a href="nossos-professores.html">Conheça nossos professores</a></li>
+                    <li><a href="aula-gratis.html">Experimente uma aula grátis!</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="corpo-pagina">
+        <div class="carrossel-banners">
+            <div><img src="imagens/banner-1.jpg" alt="Matrículas abertas! Confira nossos cursos..." /></div>
+            <div><img src="imagens/banner-2.jpg" alt="Matrículas abertas! Confira nossos cursos..." /></div>
+            <div><img src="imagens/banner-3.jpg" alt="Matrículas abertas! Confira nossos cursos..." /></div>
+            <div><img src="imagens/banner-4.jpg" alt="Matrículas abertas! Confira nossos cursos..." /></div>
+            <div><img src="imagens/banner-5.jpg" alt="Matrículas abertas! Confira nossos cursos..." /></div>
+            <div><img src="imagens/banner-6.jpg" alt="Matrículas abertas! Confira nossos cursos..." /></div>
+            <div><img src="imagens/banner-7.jpg" alt="Matrículas abertas! Confira nossos cursos..." /></div>
+            <div><img src="imagens/banner-8.jpg" alt="Matrículas abertas! Confira nossos cursos..." /></div>
+        </div>
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+
+        <script type="text/javascript">
+            $('.carrossel-banners').slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000
+            });
+        </script>
+        <br />
+        <div>
+            <p class="convite">Que tal conhecer o Ensino Germano?</p>
+            <p class="convite"><a href="aula-gratis.html" id="hipertexto-aula-gratis">Agende uma aula grátis!</a> É rápido e sem compromisso com matrícula.</p>
+            <p class="convite menos-destaque">Além disso, você receberá nosso material de apresentação no seu e-mail.</p>
+        </div>
+        <br />
+    </div>
+</body>
+
+<footer id="rodape">
+    <div id="baixo">
+        <a href="index.html"><img id="logo-germano-baixo" src="imagens/logo-germano-preto.png" /></a>
+        <nav id="hiperlinks-1">
+            <ul>
+                <h2>Cursos</h2>
+                <li><a href="aulas-alemao.html" target="_blank">Alemão</a></li>
+                <li><a href="aulas-espanhol.html" target="_blank">Espanhol</a></li>
+                <li><a href="aulas-ingles.html" target="_blank">Inglês</a></li>
+                <li><a href="aulas-frances.html" target="_blank">Francês</a></li>
+                <li><a href="aulas-chines.html" target="_blank">Chinês (Mandarim)</a></li>
+                <li><a href="aulas-japones.html" target="_blank">Japonês</a></li>
+            </ul>
+        </nav>
+        <nav id="hiperlinks-2">
+            <ul>
+                <h2>Sobre a Germano Idiomas</h2>
+                <li><a href="quem-somos.html">Quem somos</a></li>
+                <li><a href="nossos-professores.html">Nossos professores</a></li>
+                <li><a href="aula-gratis.html">Agende sua 1&ordf; aula grátis!</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5546999124522" target="_blank">Fale conosco</a></li>
+            </ul>
+        </nav>
+        <nav id="redes-sociais">
+            <h2>Siga as nossas redes sociais!</h2>
+            <p>
+                <a href="https://api.whatsapp.com/send?phone=5546999124522" target="_blank"><img src="imagens/icone-whatsapp-peq.png"></a> &nbsp;
+                <a href="https://www.facebook.com/henrizampacheco" target="_blank"><img src="imagens/icone-facebook-peq.png"></a> &nbsp;
+                <a href="https://www.instagram.com/henrizampacheco/" target="_blank"><img src="imagens/icone-instagram-peq.png"></a> &nbsp;
+                <a href="https://www.linkedin.com/in/henrizampacheco/" target="_blank"><img src="imagens/icone-linkedin-peq.png"></a> &nbsp;
+            </p>
+        </nav>
+    </div>
+    <p id="direitos-autor">&copy; 2021 Germano Idiomas - by Henrique Z. Pacheco</p>
+</footer>
+</html>

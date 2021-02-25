@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteGermano';
+    src: url('fontes/GloriaHallelujah-Regular.ttf');
+}
+
+section#secao-quem-somos p {
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 13pt;
+    margin: 0px 107px 0px 218px;
+    line-height: 1.5;
+}
+
+section#secao-quem-somos h1 {
+    font-family: 'FonteGermano', sans-serif;
+    text-transform: uppercase;
+    margin-left: 65px;
+    font-size: 16pt;
+}
+
+section#secao-quem-somos h2 {
+    font-family: 'FonteGermano', sans-serif;
+    margin-left: 134px;
+    font-size: 16pt;
+}

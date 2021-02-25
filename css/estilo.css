@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* Formatação de elementos genéricos do documento */
+
+* {
+    font-family: Tahoma;
+    color: #202020;
+}
+
+body {
+    background-color: #FFD700;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #202020;
+}
+
+nav h2 {
+    font-size: 14pt;
+    color: #404040;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/* Formatação do cabeçalho */
+
+div#topo {
+    background-color: #404040;
+    height: 130px;
+    width: 100%;
+    border-bottom: 3px solid #FF0000;
+}
+
+header#cabecalho img#logo-germano-topo {
+    position: relative;
+    left: 65px;
+    top: 25px;
+}
+
+nav#opcoes-menu {
+    font-size: 18px;
+    margin-top: -55px;
+    margin-left: 360px;
+}
+
+nav#opcoes-menu li {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+nav#opcoes-menu li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav#opcoes-menu li a:hover {
+    color: #FFFF00;
+}
+
+nav#opcoes-menu li:hover {
+    border-bottom: 4px solid #FFD700;
+    height: 83px;
+}
+
+/* Formatação do rodapé */
+
+footer#rodape {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255,255,255,.3);
+    border-top: 3px solid #FF0000;
+}
+
+div#baixo img#logo-germano-baixo {
+    position: relative;
+    left: 65px;
+    top: 20px;
+}
+
+div#baixo {
+    height: 230px;
+    width: 100%;
+}
+
+nav#hiperlinks-1 {
+    display: block;
+    margin-left: 357px;
+    margin-top: -80px;
+}
+
+nav#hiperlinks-2 {
+    display: block;
+    margin-left: 594px;
+    margin-top: -204px;
+}
+
+nav#hiperlinks-1 li a, nav#hiperlinks-2 li a {
+    color: #202020;
+    text-decoration: none;
+}
+
+nav#hiperlinks-1 li a:hover, nav#hiperlinks-2 li a:hover {
+    color: #FF0000;
+}
+
+nav#hiperlinks-1 li, nav#hiperlinks-2 li {
+    padding-bottom: 6px;
+}
+
+nav#redes-sociais {
+    display: block;
+    margin-left: 960px;
+    margin-top: -154px;
+}
+
+p#direitos-autor {
+    text-align: center;
+    color: #000000;
+}

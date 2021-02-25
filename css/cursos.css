@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteGermano';
+    src: url('fontes/GloriaHallelujah-Regular.ttf');
+}
+
+/* Formatação de texto genérica */
+
+* {
+    font-family: Tahoma;
+    color: #202020;
+}
+
+/* Formatação do corpo */
+
+div.nossos-cursos-horarios {
+    min-height: 630px;
+}
+
+/* Formatação do menu de cursos à esquerda */
+
+aside#opcoes-cursos {
+    display: block;
+    float: left;
+    padding-right: 92px;
+}
+
+table#escolha-curso {
+    border: 1px solid #FFD700;
+    border-spacing: 0px;
+    width: 235px;
+    margin-left: 66px;
+    background-color: #FFCC00;
+}
+
+table#escolha-curso td {
+    border: 3px solid #FFD700;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+table#escolha-curso a {
+    text-decoration: none;
+}
+
+table#escolha-curso a:hover {
+    color: rgba(255,0,0,.9);
+}
+
+table#escolha-curso caption {
+    padding-top: 37px;
+    padding-bottom: 45px;
+    color: #404040;
+}
+
+/* Formatação do frame e tabela dos horários à direita */
+
+section#curso-escolhido {
+    display: block;
+    float: inline-start;
+}
+
+iframe#frame-curso {
+    width: 876px;
+    height: 630px;
+    border: none;
+    padding-right: 65px;
+}
+
+header h1 {
+    font-family: 'FonteGermano', sans-serif;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+article h2 {
+    font-family: 'FonteGermano', sans-serif;
+    font-size: 16pt;
+}
+
+table {
+    width: 840px;
+    height: 293px;
+    border: 1px solid #FFFFFF;
+    border-spacing: 0px;
+    background-color: #EDEDED;
+}
+
+table td {
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+}
+        
+table td.celula-titulo {
+    text-align: center;
+    font-weight: bold;
+    background-color: #227447;
+    color: #FFFFFF;
+}
+
+table td.vazio {
+    background-color: #227447;
+}
+
+table td.aula-marcada {
+    background-color: #FDE9D9;
+}
+
+table caption {
+    font-size: 14pt;
+    font-weight: bold;
+    padding-bottom: 5px;
+}

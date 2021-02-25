@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Germano Idiomas - Aula grátis</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="css/aula-gratis.css" />
+</head>
+
+<body>
+    <div id="topo">
+        <header id="cabecalho">
+            <a href="index.html"><img id="logo-germano-topo" src="imagens/logo-germano-branco.png" /></a>
+            <nav id="opcoes-menu">
+                <ul>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                    <li><a href="nossos-professores.html">Conheça nossos professores</a></li>
+                    <li><a href="aula-gratis.html">Experimente uma aula grátis!</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section id="secao-aula-gratis">
+        <div>
+            <h1>Peça já sua aula grátis!</h1>
+            <p>Que tal experimentar uma aula grátis na melhor escola de idiomas que existe e comprovar que a Germano é a sua escolha certa?</p>
+            <p>Preencha os campos abaixo com seus dados para solicitar uma aula.</p>
+            <p>Nós entraremos em contato para agendar um teste de fluência no idioma escolhido e, após o resultado, definiremos uma data para você conhecer o nosso ensino.</p>
+            <p>Você também receberá nosso material de apresentação no seu e-mail.</p>
+            <h2>Além de uma escola, a sua escolha certa.</h2>
+            <form method="post" id="fContato" action="mailto:henrique.z.pacheco@live.com">
+                <fieldset id="dados-cliente"><legend>Informe quem é você</legend>
+                    <p><label for="cNome">Nome: </label><input type="text" name="tNome" id="cNome" maxlength="25" placeholder="Herman" required /> <label for="cSobrenome">Sobrenome: </label><input type="text" name="tSobrenome" id="cSobrenome" maxlength="50" placeholder="Gesser" required /></p>
+                    <p><label for="cNascimento">Data de nascimento: </label><input type="date" name="tNascimento" id="cNascimento" min="1903-02-01" max="01-01-2016" required /></p> <!-- Obs.: A idade máxima permitida é a mesma que a da atual mulher e pessoa mais velha do mundo, Kane Tanaka, com 118 anos. -->
+                    <p><label for="cFone">Celular/WhatsApp: </label><input type="tel" name="tFone" id="cFone" size="17" maxlength="11" placeholder="(99)99999-9999" pattern="[0-9]{11}" required /></p>
+                    <p><label for="cMail">E-mail: </label><input type="email" name="tMail" id="cMail" size="32" maxlength="40" placeholder="germano@germanoidiomas.com.br" required /></p>
+                </fieldset>
+                <br />
+                <fieldset id="dados-curso"><legend>Selecione o curso do seu interesse</legend>
+                    <p><label for="cCurso">Diga-nos, qual curso que você deseja aprender? </label>
+                    <select name="tCurso" id="cCurso" required>
+                        <option>Alemão</option>
+                        <option>Espanhol</option>
+                        <option>Inglês</option>
+                        <option>Francês</option>
+                        <option>Chinês</option>
+                        <option>Japonês</option>
+                    </select></p>
+                </fieldset>
+                <br />
+                <input type="image" name="tEnviar" id="cEnviar" src="imagens/botao-enviar.png" />
+            </form>
+            <br />
+        </div>
+    </section>
+</body>
+    
+<footer id="rodape">
+    <div id="baixo">
+        <a href="index.html"><img id="logo-germano-baixo" src="imagens/logo-germano-preto.png" /></a>
+        <nav id="hiperlinks-1">
+            <ul>
+                <h2>Cursos</h2>
+                <li><a href="aulas-alemao.html" target="_blank">Alemão</a></li>
+                <li><a href="aulas-espanhol.html" target="_blank">Espanhol</a></li>
+                <li><a href="aulas-ingles.html" target="_blank">Inglês</a></li>
+                <li><a href="aulas-frances.html" target="_blank">Francês</a></li>
+                <li><a href="aulas-chines.html" target="_blank">Chinês (Mandarim)</a></li>
+                <li><a href="aulas-japones.html" target="_blank">Japonês</a></li>
+            </ul>
+        </nav>
+        <nav id="hiperlinks-2">
+            <ul>
+                <h2>Sobre a Germano Idiomas</h2>
+                <li><a href="quem-somos.html">Quem somos</a></li>
+                <li><a href="nossos-professores.html">Nossos professores</a></li>
+                <li><a href="aula-gratis.html">Agende sua 1&ordf; aula grátis!</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5546999124522" target="_blank">Fale conosco</a></li>
+            </ul>
+        </nav>
+        <nav id="redes-sociais">
+            <h2>Siga as nossas redes sociais!</h2>
+            <p>
+                <a href="https://api.whatsapp.com/send?phone=5546999124522" target="_blank"><img src="imagens/icone-whatsapp-peq.png"></a> &nbsp;
+                <a href="https://www.facebook.com/henrizampacheco" target="_blank"><img src="imagens/icone-facebook-peq.png"></a> &nbsp;
+                <a href="https://www.instagram.com/henrizampacheco/" target="_blank"><img src="imagens/icone-instagram-peq.png"></a> &nbsp;
+                <a href="https://www.linkedin.com/in/henrizampacheco/" target="_blank"><img src="imagens/icone-linkedin-peq.png"></a> &nbsp;
+            </p>
+        </nav>
+    </div>
+    <p id="direitos-autor">&copy; 2021 Germano Idiomas - by Henrique Z. Pacheco</p>
+</footer>
+</html>

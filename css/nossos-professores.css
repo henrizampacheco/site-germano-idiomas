@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteGermano';
+    src: url('fontes/GloriaHallelujah-Regular.ttf');
+}
+
+article#professores h1 {
+    font-family: 'FonteGermano', sans-serif;
+    text-transform: uppercase;
+    margin-left: 65px;
+    font-size: 16pt;
+}
+
+table {
+    width: 1024px;
+    border: 1px solid #FFFFFF;
+    border-spacing: 0px;
+    background-color: #EDEDED;
+    margin-left: 218px;
+}
+
+table td {
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+}
+
+table td.nome-prof {
+    font-weight: bold;
+}
+
+table td.celula-titulo {
+    background-color: #001B6A;
+    color: #F8FB0A;
+}
+
+table tr.linha-titulos td {
+    background-color: #4472C4;
+    color: #FFFFFF;
+}
+
+table td.celula-titulo, table tr.linha-titulos {
+    text-align: center;
+    font-weight: bold;
+}
+
+table tr.linha-par {
+    background-color: #E3E3E3;
+}
+
+table caption {
+    color: #404040;
+    font-size: 14pt;
+    font-weight: bold;
+    padding-bottom: 24px;
+}

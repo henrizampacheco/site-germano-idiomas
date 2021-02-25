@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Germano Idiomas - Cursos</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="css/cursos.css" />
+    <script>
+        function selecionarCurso(opcao) {
+            if (opcao == 1) {
+                horario = "aulas-alemao.html";
+            }
+            if (opcao == 2) {
+                horario = "aulas-espanhol.html";
+            }
+            if (opcao == 3) {
+                horario = "aulas-ingles.html";
+            }
+            if (opcao == 4) {
+                horario = "aulas-frances.html";
+            }
+            if (opcao == 5) {
+                horario = "aulas-chines.html";
+            }
+            if (opcao == 6) {
+                horario = "aulas-japones.html";
+            }
+            document.getElementById("frame-curso").src = horario;
+        }
+    </script>
+</head>
+
+<body>
+    <div id="topo">
+        <header id="cabecalho">
+            <a href="index.html"><img id="logo-germano-topo" src="imagens/logo-germano-branco.png" /></a>
+            <nav id="opcoes-menu">
+                <ul>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                    <li><a href="nossos-professores.html">Conheça nossos professores</a></li>
+                    <li><a href="aula-gratis.html">Experimente uma aula grátis!</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="nossos-cursos-horarios">
+        <aside id="opcoes-cursos">
+            <table id="escolha-curso">
+                <caption>Clique em um dos cursos para ver os horários:</caption>
+                <tr><td id="opcao-1"><a href="javascript:selecionarCurso(1)">Alemão</a></td></tr>
+                <tr><td id="opcao-2"><a href="javascript:selecionarCurso(2)">Espanhol</a></td></tr>
+                <tr><td id="opcao-3"><a href="javascript:selecionarCurso(3)">Inglês</a></td></tr>
+                <tr><td id="opcao-4"><a href="javascript:selecionarCurso(4)">Francês</a></td></tr>
+                <tr><td id="opcao-5"><a href="javascript:selecionarCurso(5)">Chinês</a></td></tr>
+                <tr><td id="opcao-6"><a href="javascript:selecionarCurso(6)">Japonês</a></td></tr>
+            </table>
+        </aside>
+        <section id="curso-escolhido">
+            <iframe src="aulas-alemao.html" name="planilha" id="frame-curso"></iframe>
+        </section>
+    </div>
+</body>
+    
+<footer id="rodape">
+    <div id="baixo">
+        <a href="index.html"><img id="logo-germano-baixo" src="imagens/logo-germano-preto.png" /></a>
+        <nav id="hiperlinks-1">
+            <ul>
+                <h2>Cursos</h2>
+                <li><a href="aulas-alemao.html" target="_blank">Alemão</a></li>
+                <li><a href="aulas-espanhol.html" target="_blank">Espanhol</a></li>
+                <li><a href="aulas-ingles.html" target="_blank">Inglês</a></li>
+                <li><a href="aulas-frances.html" target="_blank">Francês</a></li>
+                <li><a href="aulas-chines.html" target="_blank">Chinês (Mandarim)</a></li>
+                <li><a href="aulas-japones.html" target="_blank">Japonês</a></li>
+            </ul>
+        </nav>
+        <nav id="hiperlinks-2">
+            <ul>
+                <h2>Sobre a Germano Idiomas</h2>
+                <li><a href="quem-somos.html">Quem somos</a></li>
+                <li><a href="nossos-professores.html">Nossos professores</a></li>
+                <li><a href="aula-gratis.html">Agende sua 1&ordf; aula grátis!</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5546999124522" target="_blank">Fale conosco</a></li>
+            </ul>
+        </nav>
+        <nav id="redes-sociais">
+            <h2>Siga as nossas redes sociais!</h2>
+            <p>
+                <a href="https://api.whatsapp.com/send?phone=5546999124522" target="_blank"><img src="imagens/icone-whatsapp-peq.png"></a> &nbsp;
+                <a href="https://www.facebook.com/henrizampacheco" target="_blank"><img src="imagens/icone-facebook-peq.png"></a> &nbsp;
+                <a href="https://www.instagram.com/henrizampacheco/" target="_blank"><img src="imagens/icone-instagram-peq.png"></a> &nbsp;
+                <a href="https://www.linkedin.com/in/henrizampacheco/" target="_blank"><img src="imagens/icone-linkedin-peq.png"></a> &nbsp;
+            </p>
+        </nav>
+    </div>
+    <p id="direitos-autor">&copy; 2021 Germano Idiomas - by Henrique Z. Pacheco</p>
+</footer>
+</html>

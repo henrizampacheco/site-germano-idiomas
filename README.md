@@ -22,5 +22,6 @@ Eu sou o Henrique e convido-lhe para conhecer o site Germano Idiomas, o meu prim
 * CSS3
 * JavaScript
 * [Slick.js](https://kenwheeler.github.io/slick/)
+* Adobe PhotoShop
 
 Obrigado e volte sempre!
